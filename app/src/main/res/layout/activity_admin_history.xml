@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_text"
+    tools:context=".ui.admin.AdminHistoryActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_left"
+                app:tint="@color/white" />
+
+            <TextView
+                style="@style/TitleToolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imgBack"
+                android:text="@string/history"
+                android:textColor="@color/white_text" />
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBar"
+        tools:listitem="@layout/list_user" />
+
+    <TextView
+        android:id="@+id/stateEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/rvHistory"
+        android:layout_alignBottom="@id/rvHistory"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Kosong"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        android:visibility="gone" />
+</RelativeLayout>

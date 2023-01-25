@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Smart Village</string>
+    <string name="login">Masuk</string>
+    <string name="login_welcome">Selamat Datang di Aplikasi Smart Village</string>
+    <string name="login_desc">Silakan masuk menggunakan akun yang telah terdaftar</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="welcome">Hai, Selamat datang</string>
+    <string name="hay">Halo, Selamat malam</string>
+    <string name="admin">Security</string>
+    <string name="user">Penghuni</string>
+    <string name="guest">Tamu</string>
+    <string name="in">Portal Masuk</string>
+    <string name="out">Portal Keluar</string>
+    <string name="in_for_guest">Masuk untuk tamu</string>
+    <string name="history">Riwayat</string>
+    <string name="username">Nama</string>
+    <string name="address">Alamat</string>
+    <string name="phone">No. Telp</string>
+    <string name="guest_name">Nama Tamu</string>
+    <string name="keperluan">Keperluan</string>
+    <string name="time_entry">Masuk Pukul</string>
+    <string name="guest_image">Foto Tamu</string>
+    <string name="open_portal">Buka Portal</string>
+    <string name="guest_data">Data Tamu</string>
+    <string name="add_guest">Tambah Tamu</string>
+    <string name="exit_portal">Portal Keluar</string>
+    <string name="user_data">Data Penghuni</string>
+    <string name="add_user">Tambah Penghuni</string>
+    <string name="ubah_profil">Ubah Profil</string>
+    <string name="logout">Keluar Akun</string>
+    <string name="akses_portal">Akses Portal</string>
+    <string name="profile">Profil</string>
+    <string name="save">Simpan</string>
+    <string name="setting">Pengaturan</string>
+</resources>

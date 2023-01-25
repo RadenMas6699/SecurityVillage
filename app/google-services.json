@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "929880422514",
+    "firebase_url": "https://smart-village-20748-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-village-20748",
+    "storage_bucket": "smart-village-20748.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929880422514:android:afb356a53187b0759eaaeb",
+        "android_client_info": {
+          "package_name": "com.radenmas.smart.village"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929880422514-ipsc3ulre5fmcrqau2aas6e898sh9fj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV3rySrwO5Y4nxiytnmbNCNZOULkoAICc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929880422514-ipsc3ulre5fmcrqau2aas6e898sh9fj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

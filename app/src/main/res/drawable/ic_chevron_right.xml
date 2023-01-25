@@ -1,0 +1,14 @@
+<!--
+  ~ Created by RadenMas on 10/3/2022.
+  ~ Copyright (c) 2022.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="15dp"
+    android:height="16dp"
+    android:viewportWidth="15"
+    android:viewportHeight="16">
+  <path
+      android:pathData="M5.1372,13.1869C4.9709,13.0094 4.9558,12.7316 5.0918,12.5359L5.1372,12.4798L9.1777,8.1667L5.1372,3.8536C4.9709,3.6761 4.9558,3.3983 5.0918,3.2026L5.1372,3.1465C5.3035,2.969 5.5637,2.9528 5.7471,3.0981L5.7996,3.1465L10.1716,7.8131C10.3379,7.9907 10.353,8.2684 10.2169,8.4642L10.1716,8.5203L5.7996,13.1869C5.6167,13.3822 5.3201,13.3822 5.1372,13.1869Z"
+      android:fillColor="#878783"/>
+</vector>
