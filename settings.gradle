@@ -14,5 +14,5 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "Smart Village"
+rootProject.name = "Security Village"
 include ':app'

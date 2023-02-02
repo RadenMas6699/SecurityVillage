@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Smart Village</string>
-    <string name="login">Masuk</string>
-    <string name="login_welcome">Selamat Datang di Aplikasi Smart Village</string>
-    <string name="login_desc">Silakan masuk menggunakan akun yang telah terdaftar</string>
+    <string name="app_name">Security Village</string>
+    <string name="login">Log in</string>
+    <string name="login_welcome">Selamat Datang di Aplikasi Security Village</string>
+    <string name="login_desc">Silakan log in menggunakan akun yang telah terdaftar</string>
     <string name="email">Email</string>
     <string name="password">Kata Sandi</string>
     <string name="welcome">Hai, Selamat datang</string>
@@ -10,8 +10,8 @@
     <string name="admin">Security</string>
     <string name="user">Penghuni</string>
     <string name="guest">Tamu</string>
-    <string name="in">Portal Masuk</string>
-    <string name="out">Portal Keluar</string>
+    <string name="in">Masuk</string>
+    <string name="out">Keluar</string>
     <string name="in_for_guest">Masuk untuk tamu</string>
     <string name="history">Riwayat</string>
     <string name="username">Nama</string>
@@ -28,9 +28,20 @@
     <string name="user_data">Data Penghuni</string>
     <string name="add_user">Tambah Penghuni</string>
     <string name="ubah_profil">Ubah Profil</string>
-    <string name="logout">Keluar Akun</string>
+    <string name="logout">Log out</string>
     <string name="akses_portal">Akses Portal</string>
     <string name="profile">Profil</string>
     <string name="save">Simpan</string>
     <string name="setting">Pengaturan</string>
+    <string name="delete_user">delete user</string>
+    <string name="empty">Kosong</string>
+    <string name="history_news">Riwayat Terbaru</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

@@ -3,6 +3,6 @@
     <style name="Splash" parent="Theme.SplashScreen.IconBackground">
         <item name="windowSplashScreenBackground">@color/primary</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_portal_splash</item>
-        <item name="postSplashScreenTheme">@style/Theme.SmartVillage</item>
+        <item name="postSplashScreenTheme">@style/Theme.SecurityVillage</item>
     </style>
 </resources>
