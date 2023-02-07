@@ -81,8 +81,6 @@ class AdminMainActivity : AppCompatActivity() {
             .setNegativeButtonText("Batalkan")
             .build()
 
-
-
         b.rvHistory.setHasFixedSize(true)
         b.rvGuest.setHasFixedSize(true)
 

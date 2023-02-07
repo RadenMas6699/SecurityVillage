@@ -81,11 +81,6 @@ class AdminUserActivity : AppCompatActivity() {
                 holder.tvTitle.text = user.username
                 holder.tvSubtitle.text = user.phone
                 holder.tvDesc.text = user.address
-                holder.imgDelete.visibility = View.VISIBLE
-                holder.imgDelete.setOnClickListener {
-                    Utils.showLoading(this@AdminUserActivity)
-//                    FirebaseAuth.getInstance().
-                }
             }
 
             override fun onCreateViewHolder(

@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginStart="8dp"
-        android:layout_toStartOf="@id/imgDelete"
         android:layout_toEndOf="@id/imgProfile">
 
         <TextView
@@ -69,16 +68,4 @@
             android:singleLine="true"
             android:textSize="12sp" />
     </RelativeLayout>
-
-    <ImageView
-        android:id="@+id/imgDelete"
-        android:layout_width="24dp"
-        android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="2dp"
-        android:contentDescription="@string/delete_user"
-        android:paddingHorizontal="2dp"
-        android:src="@drawable/ic_delete"
-        android:visibility="gone" />
 </RelativeLayout>

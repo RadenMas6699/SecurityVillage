@@ -18,7 +18,6 @@ class FirebaseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     var tvSubtitle: TextView
     var tvDesc: TextView
     var tvStatus: TextView
-    var imgDelete: ImageView
 
     init {
         imgProfile = itemView.findViewById(R.id.imgProfile)
@@ -26,6 +25,5 @@ class FirebaseViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         tvSubtitle = itemView.findViewById(R.id.tvSubtitle)
         tvDesc = itemView.findViewById(R.id.tvDesc)
         tvStatus = itemView.findViewById(R.id.tvStatus)
-        imgDelete = itemView.findViewById(R.id.imgDelete)
     }
 }
