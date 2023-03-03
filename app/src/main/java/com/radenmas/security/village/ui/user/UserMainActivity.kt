@@ -118,10 +118,12 @@ class UserMainActivity : AppCompatActivity() {
                             id
                         )
 
-                        database.child("history")
-                            .child(id.toString()).setValue(dataHistory).addOnSuccessListener {
-                                Utils.toast(this@UserMainActivity, "Berhasil masuk")
-                            }
+                        database.child("gate_in").setValue(1).addOnSuccessListener {
+                            database.child("history")
+                                .child(id.toString()).setValue(dataHistory).addOnSuccessListener {
+                                    Utils.toast(this@UserMainActivity, "Berhasil masuk")
+                                }
+                        }
                     }
 
                     override fun onAuthenticationFailed() {
@@ -159,10 +161,12 @@ class UserMainActivity : AppCompatActivity() {
                             id
                         )
 
-                        database.child("history")
-                            .child(id.toString()).setValue(dataHistory).addOnSuccessListener {
-                                Utils.toast(this@UserMainActivity, "Berhasil keluar")
-                            }
+                        database.child("gate_out").setValue(1).addOnSuccessListener {
+                            database.child("history")
+                                .child(id.toString()).setValue(dataHistory).addOnSuccessListener {
+                                    Utils.toast(this@UserMainActivity, "Berhasil keluar")
+                                }
+                        }
                     }
 
                     override fun onAuthenticationFailed() {

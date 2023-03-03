@@ -260,15 +260,15 @@ class AdminMainActivity : AppCompatActivity() {
                             id
                         )
 
-                        database.child("history")
-                            .child(id.toString()).setValue(dataHistory).addOnSuccessListener {
-                                database.child("guest").child(uid).removeValue()
-                                Utils.dismissLoading()
-                                dialog.dismiss()
-                            }
-
                         // Open the gate
-                        database.child("gate_out").setValue(1)
+                        database.child("gate_out").setValue(1).addOnSuccessListener {
+                            database.child("history")
+                                .child(id.toString()).setValue(dataHistory).addOnSuccessListener {
+                                    database.child("guest").child(uid).removeValue()
+                                    Utils.dismissLoading()
+                                    dialog.dismiss()
+                                }
+                        }
                     }
 
                     override fun onAuthenticationFailed() {
@@ -381,6 +381,14 @@ class AdminMainActivity : AppCompatActivity() {
                                                 database.child("guest")
                                                     .child(id.toString()).setValue(dataGuest)
                                                     .addOnSuccessListener {
+
+                                                        database.child("history")
+                                                            .child(id.toString())
+                                                            .setValue(dataHistory)
+
+                                                        // Open the gate
+                                                        database.child("gate_in").setValue(1)
+
                                                         Utils.toast(
                                                             this@AdminMainActivity,
                                                             "Tamu berhasil ditambahkan"
@@ -388,13 +396,6 @@ class AdminMainActivity : AppCompatActivity() {
                                                         Utils.dismissLoading()
                                                         dialog.dismiss()
                                                     }
-
-                                                database.child("history")
-                                                    .child(id.toString()).setValue(dataHistory)
-
-                                                // Open the gate
-                                                database.child("gate_in").setValue(1)
-
                                                 imageUri = null
                                             }
                                     }
