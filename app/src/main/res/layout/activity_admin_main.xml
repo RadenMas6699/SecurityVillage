@@ -206,6 +206,8 @@
                 android:id="@+id/rvHistory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:minHeight="220dp"
                 android:paddingBottom="16dp"
                 tools:listitem="@layout/list_user" />
 
@@ -239,6 +241,8 @@
                 android:id="@+id/rvGuest"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:minHeight="220dp"
                 android:paddingBottom="16dp"
                 tools:listitem="@layout/list_user" />
 

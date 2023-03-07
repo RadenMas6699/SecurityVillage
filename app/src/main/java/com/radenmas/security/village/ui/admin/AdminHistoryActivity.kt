@@ -75,7 +75,7 @@ class AdminHistoryActivity : AppCompatActivity() {
                     .placeholder(R.drawable.ic_profile_default)
                     .into(holder.imgProfile)
                 holder.tvTitle.text = history.username
-                holder.tvSubtitle.text = Utils.formatClockSimple(history.timestamp)
+                holder.tvSubtitle.text = Utils.formatDateSimple(history.timestamp)
                 holder.tvDesc.text = history.desc
                 holder.tvStatus.text = history.status
                 when (history.status) {
