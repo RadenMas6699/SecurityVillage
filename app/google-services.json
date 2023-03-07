@@ -8,9 +8,38 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:929880422514:android:afb356a53187b0759eaaeb",
+        "mobilesdk_app_id": "1:929880422514:android:5261a73f9bbd7bdf9eaaeb",
         "android_client_info": {
           "package_name": "com.radenmas.security.village"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929880422514-ipsc3ulre5fmcrqau2aas6e898sh9fj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV3rySrwO5Y4nxiytnmbNCNZOULkoAICc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929880422514-ipsc3ulre5fmcrqau2aas6e898sh9fj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929880422514:android:ab0d0a055d0d68e09eaaeb",
+        "android_client_info": {
+          "package_name": "com.rahmat.security.village"
         }
       },
       "oauth_client": [

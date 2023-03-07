@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.radenmas.security.village'
+    namespace 'com.rahmat.security.village'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.radenmas.security.village"
+        applicationId "com.rahmat.security.village"
         minSdk 24
         targetSdk 33
         versionCode 2
