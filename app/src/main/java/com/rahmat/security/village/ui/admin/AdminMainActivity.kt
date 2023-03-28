@@ -6,6 +6,7 @@ import android.app.Activity
 import android.content.*
 import android.content.pm.PackageManager
 import android.graphics.Color
+import android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_STRONG
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
@@ -13,6 +14,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import androidx.biometric.BiometricManager
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -79,6 +81,7 @@ class AdminMainActivity : AppCompatActivity() {
             .setTitle("Security Village")
             .setSubtitle("Buka portal menggunakan sidik jari")
             .setNegativeButtonText("Batalkan")
+            .setAllowedAuthenticators(BIOMETRIC_STRONG)
             .build()
 
         b.rvHistory.setHasFixedSize(true)

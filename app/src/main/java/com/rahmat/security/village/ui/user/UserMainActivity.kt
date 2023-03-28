@@ -8,6 +8,7 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG
 import androidx.biometric.BiometricPrompt
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -72,6 +73,7 @@ class UserMainActivity : AppCompatActivity() {
             .setTitle("Smart Village")
             .setSubtitle("Buka portal menggunakan sidik jari")
             .setNegativeButtonText("Batalkan")
+            .setAllowedAuthenticators(BIOMETRIC_STRONG)
             .build()
 
     }

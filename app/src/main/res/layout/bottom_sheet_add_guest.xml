@@ -55,7 +55,7 @@
                         android:id="@+id/etUsername"
                         style="@style/EditText"
                         android:layout_marginTop="4dp"
-                        android:hint="Contoh: Asep"
+                        android:hint="Contoh: Rahmat"
                         android:imeOptions="actionNext"
                         android:inputType="textPersonName|textCapWords"
                         android:singleLine="true" />
